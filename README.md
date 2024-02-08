@@ -1,16 +1,36 @@
-HELLO!
-1.OPEN SETUP.BAT FILE AND CLICK ALL BUTTON
-2.SET OSINT EV.
-3.DO NOT MISS USE FILE
-4.DO NOT CLICK DELPKG.BAT FILE OTHERWISE DELETE ALL IMPORTANT PACKAGE ONLY USE THIS FILE TO UPDATE YOUR OSINT FOLDER 
-5.DON'T ACCESS _ROOT.BAT
-ABOUT THE OSINT...
-
 # MENA OSINT Toolkit
 
 ## Overview
 
-MENA OSINT Toolkit is a user-friendly open-source project developed in Batch language, designed to simplify open-source intelligence (OSINT) tasks. This toolkit provides an accessible interface, allowing users, regardless of their programming background, to perform OSINT tasks and interact with Chat-GPT.
+MENA OSINT Toolkit is a user-friendly open-source project developed in Batch language, designed to simplify open-source intelligence (OSINT) tasks. This README provides essential information on the setup and usage of the toolkit.
+
+## Usage Instructions
+
+1. **Open Setup.bat File:**
+   - Run the `Setup.bat` file.
+   - Click on all buttons to complete the setup process.
+
+2. **Set OSINT Environment:**
+   - Configure the OSINT environment as needed.
+
+3. **Usage Guidelines:**
+   - Do not misuse any file within the toolkit.
+   - Avoid clicking on `Delpkg.bat` file to prevent accidental deletion of important packages.
+   - Refrain from accessing `_root.bat` for security reasons.
+
+4. **Update OSINT Folder:**
+   - Use `Delpkg.bat` only to update your OSINT folder. Do not click this file for any other purpose.
+
+## Important Warnings
+
+- **Misuse of Files:**
+  - Do not misuse any file within the toolkit for unauthorized or illegal activities.
+
+- **Delpkg.bat:**
+  - Clicking on `Delpkg.bat` will delete important packages. Only use this file to update your OSINT folder.
+
+- **_root.bat:**
+  - Do not access `_root.bat` for security reasons. It is a critical file that should not be tampered with.
 
 ## Features
 
@@ -41,3 +61,12 @@ MENA OSINT Toolkit is a user-friendly open-source project developed in Batch lan
 # Example Batch script calling a Python script
 python my_script.py.
 c my_script.cpp
+
+# Install Package 
+git clone https://github.com/OSINTSG/OSINT.git
+cd OSINT
+dir
+./GlobelEv.bat
+./main.bat
+./Setup.bat
+
