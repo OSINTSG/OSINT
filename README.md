@@ -32,7 +32,7 @@ MENA OSINT Toolkit is a user-friendly open-source project developed in Batch lan
 - **_root.bat:**
   - Do not access `_root.bat` for security reasons. It is a critical file that should not be tampered with.
  
-  - - **Important**
+- **Important**
   - OSINT Project Only Clone C:\ Drive Otherwise not work this project and To do this every time, you will have to go here and click on setup.Bat file.
 ## Features
 
